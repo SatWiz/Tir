@@ -2,7 +2,7 @@ package = "tir"
 version = "scm-0"
 
 source = { }
-source.url = "git://github.com/SatWiz/Tir.git"
+source.url = "git://github.com/zedshaw/Tir.git"
 
 description = {
    summary = "Tir Mongrel2/Lua Web Framework",
@@ -16,7 +16,7 @@ dependencies = {
    "luaposix == 5.1.2",
    "lua-zmq",
     "md5",
-    "luajson",
+    "luacjson",
     "lsqlite3",
     "telescope",
 }
