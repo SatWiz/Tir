@@ -4,7 +4,7 @@ module('Tir.Task', package.seeall)
 local IO_THREADS = 1
 
 local zmq = require 'zmq'
-local json = require 'json'
+local json = require 'cjson'
 
 function start(config)
     assert(config.spec, "You need to at least set spec = to your 0MQ socket spec.")

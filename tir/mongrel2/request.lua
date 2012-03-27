@@ -21,7 +21,7 @@
 ]]
 
 
-local json = require 'json'
+local json = require 'cjson'
 local tns = require 'tnetstrings'
 local tns_parse = tns.parse
 

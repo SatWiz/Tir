@@ -20,7 +20,7 @@
 # THE SOFTWARE.
 ]]
 
-local json = require 'json'
+local json = require 'cjson'
 local zmq = require 'zmq'
 
 local request = require 'tir.mongrel2.request'

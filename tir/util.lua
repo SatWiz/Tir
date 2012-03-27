@@ -2,7 +2,7 @@
 
 module('Tir', package.seeall)
 
-require 'json'
+require 'cjson'
 
 
 function table_print(tt, indent, done)
